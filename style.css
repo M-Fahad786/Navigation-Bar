@@ -1,0 +1,83 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    font-family: serif;
+}
+.box{
+    width: 100%;
+    height: 50%;
+    background-color: lightseagreen;
+   display: inline-block;
+   box-shadow: 0px 2px 5px lightgray ;
+   color: black;
+}
+.logo{
+    float: left;
+    width: 10%;
+    height: inherit;
+    overflow: hidden;
+    text-align: center;
+    line-height: 50px;
+}
+.logo span{
+    font-size: 1.7em;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.links{
+    float: left;
+    width: 50%;
+    height: 50%;
+    overflow: hidden;
+}
+.links ul{
+    list-style: none;   
+}
+.links ul li{
+    margin: 5px;
+    padding: 8px 5px 8px 5px;
+    display: inline;
+    text-align: center;
+}
+.links ul li a{
+    text-decoration: underline;
+    color: black;
+    font-size: 1.3em;
+}
+.links ul li :hover{
+    border: 1px solid blue;
+    border-radius: 4px;
+}
+.inp{
+    float: left;
+    width: 20%;
+    height: inherit;
+    overflow: hidden;
+    text-align: center;
+    line-height: 50px;
+}
+.inp input{
+    width: 100%;
+    padding: 5px;
+    font-size: 1.1em;
+    border-radius: 4px;
+    border: none;
+}
+.btn{
+    float: right;
+    width: 15%;
+    height: inherit;
+    overflow: hidden;
+    text-align: center;
+    line-height: 50px;
+}
+.btn button{
+    border: none;
+    padding: 5px 8px 5px 8px;
+    font-size: 1.1em;
+    border-radius: 5px;
+}
+.btn button :hover{
+    color: #fff;
+    background-color: cornflowerblue;
+}
